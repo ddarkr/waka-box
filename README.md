@@ -4,6 +4,8 @@
   <p align="center">Update a pinned gist to contain your weekly WakaTime stats</p>
 </p>
 
+> 🛠 This repository is an edited version. Please using [original repository](https://github.com/matchai/waka-box).
+
 ---
 
 > 📌✨ For more pinned-gist projects like this one, check out: https://github.com/matchai/awesome-pinned-gists
