@@ -49,7 +49,7 @@ async function updateGist(stats) {
       gist_id: gistId,
       files: {
         [filename]: {
-          filename: `📊 Weekly development breakdown`,
+          filename: `📊 이번 주의 개발 통계`,
           content: lines.join("\n")
         }
       }
