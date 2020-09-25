@@ -2,7 +2,7 @@ name: Update gist with WakaTime stats
 on:
   push:
     branches:
-    - master
+      - master
   schedule:
     - cron: "0 * * * *"
 jobs:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: matchai/waka-box@master
+        uses: ddarkr/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 5c2939afae7cbf6cca3cb462b79c2bf2
